@@ -1,0 +1,47 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$uAtg19FwIfm3EQ5LtwCdjk$nyMZ4IEFJpFVXXySgTmsIKCACUxLYZIkeAmU8ZsY5yU=",
+      "last_login": "2022-07-06T17:50:31.948Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@example.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-04-07T08:52:02.347Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "subscribers.subscribers",
+    "pk": 1,
+    "fields": {
+      "email": "andrusha.kp@gmail.com",
+      "name": "Andrey",
+      "surname": "Kapatsina",
+      "birthday": "1988-08-01"
+    }
+  },
+  {
+    "model": "subscribers.subscribers",
+    "pk": 2,
+    "fields": {
+      "email": "test@test.com",
+      "name": "Andrey",
+      "surname": "Kapatsina",
+      "birthday": "1988-08-01"
+    }
+  },
+  {
+    "model": "mailing.templatemailing",
+    "pk": 1,
+    "fields": {
+      "template": "<h1>\u041f\u0440\u0438\u0432\u0435\u0442 {name} {surname}</h1>\r\n<p>\u0412\u0430\u0448 \u0434\u0435\u043d\u044c \u0440\u043e\u0436\u0434\u0435\u043d\u0438\u044f  {birthday}</p>"
+    }
+  }
+]

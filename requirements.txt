@@ -1,0 +1,9 @@
+gunicorn==19.10.0
+Django==1.11.6
+djangorestframework==3.9.4
+redis==3.5.3
+celery==4.4.7
+drf-yasg==1.17.1
+psycopg2==2.5.4
+django-environ==0.4.4
+
